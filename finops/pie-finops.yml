@@ -1,0 +1,30 @@
+name: Pie Insurance FinOps
+description: >
+  Financial operations considerations for integrating with the Pie Insurance
+  partner API. The API itself does not carry a direct usage-based cost to
+  partners — Pie Insurance operates as the carrier and earns premium revenue
+  from the workers compensation policies bound through the API. Partners
+  (agencies, aggregators, platforms) typically earn commissions on policies
+  placed through the integration.
+costModel:
+  type: commission-based
+  description: >
+    No API usage fees are publicly documented. Partners earn agent commissions
+    on workers comp policies bound through the Pie API. Premium pricing for
+    insureds is determined by payroll amount, employee class codes, state
+    jurisdiction, and Pie's proprietary underwriting algorithm, with advertised
+    savings of up to 30% versus traditional market rates.
+  notes: >
+    Payroll-based premium audits occur at policy expiration; final premiums may
+    be adjusted based on actual payroll reported during the policy period.
+    Partners should review the API Terms of Use and any partner agreement for
+    commission structures and chargeback provisions.
+paymentOptions:
+  - Monthly payroll-based installments
+  - Annual premium payment
+  - Bi-weekly installments (selected states)
+references:
+  - url: https://www.pieinsurance.com/payment-options
+    description: Pie Insurance payment options for policyholders
+  - url: https://www.pieinsurance.com/agency/api
+    description: Partner API program overview

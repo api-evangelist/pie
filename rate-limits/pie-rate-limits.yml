@@ -1,0 +1,20 @@
+name: Pie Insurance API Rate Limits
+description: >
+  Pie Insurance does not publish specific rate limit thresholds publicly. API
+  access is granted to approved partners through a credentialed agreement.
+  Rate limits, if any, are communicated as part of the partner onboarding
+  process and API integration documentation provided to credentialed partners.
+  Partners should contact Pie Insurance directly for current rate limit
+  policies applicable to their integration.
+rateLimits:
+  - scope: Partner API
+    type: unknown
+    notes: >
+      Not publicly disclosed. Rate limits are defined per partner agreement.
+      Contact Pie Insurance via https://www.pieinsurance.com/agency/api for
+      details.
+references:
+  - url: https://www.pieinsurance.com/agency/api
+    description: Partner API page — contact point for rate limit information
+  - url: https://api.post-prod.pieinsurance.com/api/docs/index.html
+    description: Swagger UI documentation for credentialed partners

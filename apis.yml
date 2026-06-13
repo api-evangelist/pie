@@ -1,0 +1,75 @@
+aid: pie
+name: Pie Insurance
+description: >
+  Pie Insurance is a small business workers compensation insurance platform
+  that provides a REST API for approved partners to quote, bind, and manage
+  workers comp policies. The partner API supports appetite checking, price
+  indication, quote submission, document upload, and retrieval of bindable
+  quotes, enabling agencies, aggregators, and technology platforms to embed
+  workers comp quoting directly into their own workflows. Pie targets small
+  businesses across 39 states and Washington D.C., using data-driven
+  underwriting to offer savings of up to 30% versus traditional carriers.
+  Payroll-based premium calculations and policy management including
+  certificates of insurance are central to the platform.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/pie/refs/heads/main/apis.yml
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+tags:
+  - Insurance
+  - Workers Compensation
+  - Small Business
+  - Insurtech
+  - Quoting
+  - Policy Management
+  - Certificates of Insurance
+  - Payroll
+apis:
+  - aid: pie:pie-partner-api
+    name: Pie Insurance Partner API
+    description: >
+      REST API for approved partners to access Pie Insurance workers
+      compensation quoting and binding workflows. Supports appetite checking,
+      price indication, quote submission, document upload, and retrieval of
+      bindable quotes with real-time status tracking.
+    humanURL: https://www.pieinsurance.com/agency/api
+    baseURL: https://api.post-prod.pieinsurance.com
+    tags:
+      - Workers Compensation
+      - Quoting
+      - Policy Binding
+      - Insurance
+      - Small Business
+    properties:
+      - type: Documentation
+        url: https://www.pieinsurance.com/agency/api
+      - type: SwaggerUI
+        url: https://api.post-prod.pieinsurance.com/api/docs/index.html
+common:
+  - type: Website
+    url: https://www.pieinsurance.com
+  - type: Documentation
+    url: https://www.pieinsurance.com/agency/api
+  - type: GitHubOrg
+    url: https://github.com/PieInsurance
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/pieinsurance
+  - type: Blog
+    url: https://www.pieinsurance.com/blog
+  - type: Pricing
+    url: https://www.pieinsurance.com/agency/api
+  - type: StatusPage
+    url: https://www.pieinsurance.com
+  - type: X
+    url: https://twitter.com/pie_insurance
+  - type: Plans
+    url: plans/pie-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/pie-rate-limits.yml
+  - type: FinOps
+    url: finops/pie-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

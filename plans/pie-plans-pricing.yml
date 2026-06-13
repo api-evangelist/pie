@@ -1,0 +1,31 @@
+name: Pie Insurance Plans and Pricing
+description: >
+  Pie Insurance provides workers compensation insurance for small businesses
+  through a partner API program. API access is available to approved partners
+  (insurance agencies, aggregators, and technology platforms) by contacting
+  Pie Insurance directly to obtain credentials. There are no publicly listed
+  tiered API pricing plans — API access is granted through a partnership
+  agreement. Insureds pay standard workers comp premiums based on payroll,
+  class codes, and state rates; Pie advertises savings of up to 30% versus
+  traditional carriers.
+plans:
+  - name: Partner API Access
+    description: >
+      Access to the full Pie Insurance partner API including appetite checking,
+      price indication, quote submission, document upload, and bindable quote
+      retrieval. Requires a signed partnership agreement and API credentials
+      issued by Pie Insurance.
+    type: partner
+    access: by-request
+    url: https://www.pieinsurance.com/agency/api
+    features:
+      - Appetite checker
+      - Price indication
+      - Quote submission
+      - Document upload
+      - Bindable quote retrieval
+      - Real-time quote status tracking
+    authentication: Credentials provided upon partner approval
+    notes: >
+      Contact Pie Insurance through the agency API page to apply for partner
+      access. API terms of use must be accepted before credentials are issued.
