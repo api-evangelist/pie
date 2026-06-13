@@ -1,0 +1,75 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://www.pieinsurance.com",
+  "name": "Pie Insurance",
+  "url": "https://www.pieinsurance.com",
+  "description": "Pie Insurance is a small business workers compensation insurance platform that provides a REST API for approved partners to quote, bind, and manage workers comp policies. The partner API supports appetite checking, price indication, quote submission, document upload, and retrieval of bindable quotes, enabling agencies, aggregators, and technology platforms to embed workers comp quoting directly into their own workflows.",
+  "sameAs": [
+    "https://www.linkedin.com/company/pieinsurance",
+    "https://twitter.com/pie_insurance",
+    "https://github.com/PieInsurance"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Pie Insurance Partner API",
+    "description": "REST API for approved partners to access workers compensation quoting and binding workflows",
+    "url": "https://www.pieinsurance.com/agency/api",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "name": "Appetite Checking",
+        "description": "Check coverage eligibility for small business workers compensation insurance"
+      },
+      {
+        "@type": "Offer",
+        "name": "Price Indication",
+        "description": "Obtain real-time price indications for workers comp coverage"
+      },
+      {
+        "@type": "Offer",
+        "name": "Quote Submission",
+        "description": "Submit quotes and track real-time status"
+      },
+      {
+        "@type": "Offer",
+        "name": "Document Upload",
+        "description": "Upload documents required for policy submissions"
+      },
+      {
+        "@type": "Offer",
+        "name": "Bindable Quote Retrieval",
+        "description": "Retrieve bindable quotes for final policy binding"
+      },
+      {
+        "@type": "Offer",
+        "name": "Policy Management",
+        "description": "Manage policies including certificates of insurance"
+      }
+    ]
+  },
+  "areaServed": {
+    "@type": "AdministrativeArea",
+    "name": "United States",
+    "description": "39 states and Washington D.C."
+  },
+  "knowsAbout": [
+    "Workers Compensation Insurance",
+    "Small Business Insurance",
+    "Insurtech",
+    "API Integration",
+    "Payroll-Based Premium Calculations",
+    "Certificates of Insurance"
+  ],
+  "subjectOf": {
+    "@type": "WebAPI",
+    "name": "Pie Insurance Partner API",
+    "url": "https://www.pieinsurance.com/agency/api",
+    "documentation": "https://api.post-prod.pieinsurance.com/api/docs/index.html",
+    "termsOfService": "https://www.pieinsurance.com/agency/api",
+    "provider": {
+      "@type": "Organization",
+      "name": "Pie Insurance"
+    }
+  }
+}
