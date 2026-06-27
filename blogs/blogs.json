@@ -1,76 +1,14 @@
 {
-  "aid": "pie",
-  "url": "https://www.pieinsurance.com/blog",
-  "last_fetched": "2026-06-13",
-  "posts": [
-    {
-      "title": "2025 Year in Review: A Sweet Year of Growth and Recognition at Pie Insurance",
-      "url": "https://www.pieinsurance.com/blog/2025-year-in-review-a-sweet-year-of-growth-and-recognition-at-pie-insurance",
-      "category": "Thought Leadership"
-    },
-    {
-      "title": "Workplace Nightmares 2026: The Scariest (Real) Workplace Injuries of 2025",
-      "url": "https://www.pieinsurance.com/blog/workplace-nightmares-2026-the-scariest-real-workplace-injuries-of-2025",
-      "category": "Safety"
-    },
-    {
-      "title": "What 1,000+ Employees Revealed About Small Business Workplace Safety",
-      "url": "https://www.pieinsurance.com/blog/safety-survey-employee-voice",
-      "category": "Safety"
-    },
-    {
-      "title": "How AI is Transforming Workplace Safety and What Insurance Agents Need to Know in 2025",
-      "url": "https://www.pieinsurance.com/blog/ai-workplace-safety-insurance-agents",
-      "category": "Safety"
-    },
-    {
-      "title": "Breaking the Silence: Why Fear Keeps Safety Concerns Unspoken",
-      "url": "https://www.pieinsurance.com/blog/why-employees-dont-report-safety-concerns",
-      "category": "Safety"
-    },
-    {
-      "title": "When \"Are You Okay?\" Becomes a Safety Question",
-      "url": "https://www.pieinsurance.com/blog/when-are-you-okay-becomes-a-workplace-mental-health-safety-question",
-      "category": "Safety"
-    },
-    {
-      "title": "From Listening to Action: What Employees Say Actually Works for Workplace Safety",
-      "url": "https://www.pieinsurance.com/blog/employee-voice-workplace-safety-solutions",
-      "category": "Safety"
-    },
-    {
-      "title": "Growing Pains: What Can Happen to Workplace Safety When Small Businesses Scale",
-      "url": "https://www.pieinsurance.com/blog/growing-pains-what-can-happen-to-workplace-safety-when-small-businesses-scale",
-      "category": "Safety"
-    },
-    {
-      "title": "Driving Risk: How Insurance Agents Can Help Small Business Clients Avoid the Most Common Commercial Auto Incidents",
-      "url": "https://www.pieinsurance.com/blog/driving-risk-insurance-agents-commercial-auto-incidents",
-      "category": "Safety"
-    },
-    {
-      "title": "Preventing Ladder-Related Workplace Accidents: A Guide to Ensuring Safety",
-      "url": "https://www.pieinsurance.com/blog/safety/ladder-safety",
-      "category": "Safety"
-    },
-    {
-      "title": "Growth at Pie: Better experience for you and your clients",
-      "url": "https://www.pieinsurance.com/blog/thought-leadership/growth-at-pie",
-      "category": "Thought Leadership"
-    },
-    {
-      "title": "Pie's 2024 Small Business Outlook Report is here",
-      "url": "https://www.pieinsurance.com/blog/thought-leadership/small-business-outlook-report",
-      "category": "Thought Leadership"
-    }
-  ],
   "repo": "pie",
   "feeds": [
     {
-      "source": "https://www.linkedin.com/company/pieinsurance",
-      "error": "HTTPError"
+      "source": "https://www.pieinsurance.com/blog",
+      "feed_url": "",
+      "saved": 0,
+      "method": "agent-scrape"
     }
   ],
+  "fetched": "2026-06-27T13:02:19Z",
   "post_count": 0,
-  "fetched": "2026-06-14T20:42:17Z"
+  "agent_pulled": "2026-06-27"
 }
