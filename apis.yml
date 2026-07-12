@@ -48,6 +48,8 @@ apis:
       - type: SwaggerUI
         url: https://api.post-prod.pieinsurance.com/api/docs/index.html
 common:
+  - type: DomainSecurity
+    url: security/pie-domain-security.yml
   - type: Website
     url: https://www.pieinsurance.com
   - type: Documentation
