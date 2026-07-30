@@ -12,7 +12,19 @@ description: >
   Payroll-based premium calculations and policy management including
   certificates of insurance are central to the platform.
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pie.png
 url: https://raw.githubusercontent.com/api-evangelist/pie/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
